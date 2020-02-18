@@ -2,25 +2,70 @@
 <html>
 
 <head>
-  <title>Express</title>
+  <title>Conference Utopia</title>
   <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
 </head>
 
 <body>
+  <!-- first room -->
+  <!-- middle screen -->
   <div class="container">
     <img src="images/conf-room.jpg">
-    <div class="centered">
+    <div class="centered-1">
       <video autoplay loop>
         <source src="images/beach-feed.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
     </div>
-    <div class="side">
-      <video id="front" autoplay loop>
+
+    <!-- right screen -->
+    <div class="side-1">
+      <video class="front" autoplay loop>
         <source src="images/beach-feed3.mp4" type="video/mp4">
       </video>
     </div>
+
+    <!-- window -->
+    <div class="mask-1">
+      <video class="vid1" autoplay loop>
+        <source src="images/beach-feed.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
   </div>
+
+  <!-- second room -->
+  <div class="container">
+    <img src="images/conf-room2.jpg">
+    <div class="centered-2 mask-2">
+      <video class="vid2" autoplay loop>
+        <source src="images/landscape1.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
+
+  <!-- third room -->
+  <div class="container">
+    <img src="images/conf-room3.jpg">
+
+    <!-- middle screen -->
+    <div class="centered-3">
+      <video autoplay loop>
+        <source src="images/beach-feed2.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+    <!-- left windows -->
+    <div class="mask-3">
+      <video class="vid3" autoplay loop>
+        <source src="images/beach-feed3.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
+
 </body>
 
 </html>
