@@ -74,7 +74,7 @@ video {
 .mask-1 {
   position: absolute;
   top: 0;
-  -webkit-mask-image: url("images/conf-room1-mask.svg");
+  -webkit-mask-image: url("../images/conf-room1-mask.svg");
 }
 
 .vid1 {
@@ -82,14 +82,14 @@ video {
 }
 
 .mask-2 {
-  -webkit-mask-image: url("images/conf-room2-mask.svg");
+  -webkit-mask-image: url("../images/conf-room2-mask.svg");
 }
 
 .vid2 {}
 
 .mask-3 {
   top: 0;
-  -webkit-mask-image: url("images/conf-room3-mask.svg");
+  -webkit-mask-image: url("../images/conf-room3-mask.svg");
 }
 
 .vid3 {
